@@ -1,0 +1,180 @@
+{
+  "users": [
+    {
+      "id": "bf19",
+      "name": "Rebecca",
+      "bodyType": "Overweight",
+      "workoutCategory": "Weight loss",
+      "workoutDays": "3"
+    }
+  ],
+  "workouts": [
+    {
+      "id": "1",
+      "name": "Cardio Workouts",
+      "category": "Weight loss",
+      "exercises": [
+        {
+          "id": 1,
+          "type": "Running",
+          "duration": "30 minutes",
+          "fitness level": "Beginner"
+        },
+        {
+          "id": 2,
+          "type": "Cycling",
+          "duration": "30 minutes",
+          "fitness level": "Intermediate"
+        },
+        {
+          "id": 3,
+          "type": "Jumping rope",
+          "duration": "30 minutes",
+          "fitness level": "Intermediate"
+        },
+        {
+          "id": 4,
+          "type": "Swimming",
+          "duration": "30 minutes",
+          "fitness level": "Advanced"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Strength Training",
+      "category": "Muscle gain",
+      "exercises": [
+        {
+          "id": 1,
+          "type": "Push-ups",
+          "duration": "15 minutes",
+          "fitness level": "Beginner"
+        },
+        {
+          "id": 2,
+          "type": "Planks",
+          "duration": "15 minutes",
+          "fitness level": "Beginner"
+        },
+        {
+          "id": 3,
+          "type": "Squats",
+          "duration": "20 minutes",
+          "fitness level": "Intermediate"
+        },
+        {
+          "id": 4,
+          "type": "Lifting weights",
+          "duration": "30 minutes",
+          "fitness level": "Advanced"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Flexibility and Balance workouts",
+      "category": "Flexibility and Balance",
+      "exercises": [
+        {
+          "id": 1,
+          "type": "Stretching",
+          "duration": "20 minutes",
+          "fitness level": "Beginner"
+        },
+        {
+          "id": 2,
+          "type": "Yoga",
+          "duration": "30 minutes",
+          "fitness level": "Intermediate"
+        },
+        {
+          "id": 3,
+          "type": "Pilates",
+          "duration": "45 minutes",
+          "fitness level": "Advanced"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "High-Intensity Interval Training",
+      "category": "HIIT",
+      "exercises": [
+        {
+          "id": 1,
+          "type": "Burpees",
+          "duration": "10 minutes",
+          "fitness level": "Beginner"
+        },
+        {
+          "id": 2,
+          "type": "Sprints",
+          "duration": "30 minutes",
+          "fitness level": "Intermediate"
+        },
+        {
+          "id": 3,
+          "type": "Kettlebell swings",
+          "duration": "10 minutes",
+          "fitness level": "Intermediate"
+        },
+        {
+          "id": 4,
+          "type": "Batttle ropes",
+          "duration": "15 minutes",
+          "fitness level": "Advanced"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Group fitness classes",
+      "category": "Overall fitness",
+      "exercises": [
+        {
+          "id": 1,
+          "type": "Aerobics",
+          "duration": "30 minutes",
+          "fitness level": "Beginner"
+        },
+        {
+          "id": 2,
+          "type": "Zumba Classes",
+          "duration": "45 minutes",
+          "fitness level": "Intermediate"
+        },
+        {
+          "id": 3,
+          "type": "Group cycling",
+          "duration": "45 minutes",
+          "fitness level": "Advanced"
+        }
+      ]
+    }
+  ],
+  "motivational_tips": [
+    {
+      "id": "1",
+      "tip": "The only bad workout is the one you didn't do!"
+    },
+    {
+      "id": "2",
+      "tip": "Slow progress is still progress!"
+    },
+    {
+      "id": "3",
+      "tip": "Push harder than yesterday if you want a better tomorrow!"
+    },
+    {
+      "id": "4",
+      "tip": "Discipline is choosing between what you want now and what you want most!"
+    }
+  ],
+  "progress": [
+    {
+      "status": "Completed",
+      "id": "f28f"
+    }
+  ]
+}

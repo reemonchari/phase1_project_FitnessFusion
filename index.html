@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fitness Fusion</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header class="header">
+    <h1>FITNESS FUSION</h1>
+    <p class="subheading"><em>Your workout buddy</em></p>
+    <div id="motivationalQuote"></div>
+  </header>
+<section class="form">
+    <h2>Enter Your Details</h2>
+    <form id="userForm" autocomplete="off">
+      <input type="text" id="name" placeholder="Enter your name" required />
+      <select id="bodyType" required>
+        <option value="">Select Body Type</option>
+        <option value="Skinny">Skinny</option>
+        <option value="Average">Average</option>
+        <option value="Overweight">Overweight</option>
+        <option value="Athletic">Athletic</option>
+      </select>      
+      <select id="workoutCategory" required>
+        <option value="">Select Category</option>
+        <option value="Weight loss">Weight loss</option>
+        <option value="Muscle gain">Muscle gain</option>
+        <option value="Flexibility and Balance">Flexibility & Balance</option>
+        <option value="HIIT">HIIT</option>
+        <option value="Overall fitness">Overall Fitness</option>
+      </select>
+
+      <select id="workoutDays" required>
+        <option value="">Choose number of days to work out</option>
+        <option value="1">1 Day</option>
+        <option value="2">2 Days</option>
+        <option value="3">3 Days</option>
+        <option value="4">4 Days</option>
+        <option value="5">5 Days</option>
+    </select>
+    
+    <button type="submit">Submit</button>
+  </form>
+</section>
+
+<section class="user-list">
+  <h2>User List</h2>
+  <table id="userTable">
+      <thead>
+          <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Body Type</th>
+            <th>Workout Category</th>
+            <th>Workout Days</th>
+            <th>Actions</th>
+          </tr>
+      </thead>
+      <tbody id="userTableBody"></tbody>
+  </table>
+</section>
+
+
+  <section class="workout-display">
+    <h2>Available Workouts</h2>
+    <ul id="workoutList"></ul>
+    <div id="exerciseList" style="display: none;"></div>
+  </section>
+
+  <section class="progress-tracking">
+    <form id="progressForm" autocomplete="off">
+        <button type="submit">Track Progress</button>
+    </form>
+    <div id="progressTracker"></div> 
+</section>
+
+<script src="index.js"></script>
+</body>
+</html>
